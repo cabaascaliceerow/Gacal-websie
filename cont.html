@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+                * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+header {
+    background-color: #54b207;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #94e495;
+    border-radius: 5px;
+}
+.contact-page form {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-page form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-page form input, .contact-page form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.contact-page form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #54b207;
+    color: white;
+    border: none;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+ button :hover{
+    background-color: #94e495;
+}
+.about-us, .featured-dishes, .menu, .contact-page, .about-page {
+    padding: 50px;
+    background-color: #f4f4f4;
+   
+    
+
+
+    text-align: center;
+}
+
+.dish-gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+footer {
+  background-color: #5ec948;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+footer h6 {
+  color: #f4f4f4;
+  font-size: 1.1em;
+}
+footer a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-style: italic;
+}
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">Eyrow Electronics</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="servs.html">Services</a></li>
+            <li><a href="cont.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    
+<section class="contact-page">
+  <h1>Contact Us</h1>
+  <p><a href="cabaascaliceerow@gmail.com">Email: Eyrow@gmail.com</a></p>
+  <p>Phone: 252612113399</p>
+  <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+  </form>
+</section>
+      
+  <footer>
+    <p><h6> <i class="fa-brands fa-whatsapp"><a href=" https://wa.me/252615815043"> whatsapp Eyrow. All Rights Reserved.</a></i> </h6></p>
+  </footer>
+</body>
+<script>
+
+    
+</script>
+</html>
